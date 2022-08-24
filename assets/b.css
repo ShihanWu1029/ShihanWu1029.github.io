@@ -7,7 +7,6 @@ html,body{
     -webkit-background-size: cover;
     -o-background-size: cover;                
     background-size: cover;
-    overflow: hidden;
 }
 .--homepage-nav{
     background-color: silver;
