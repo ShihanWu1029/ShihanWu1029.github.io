@@ -18,9 +18,18 @@ footer{
 .ft{
     color: grey;
     text-decoration: none;
-    transition: all .3s;
+    transition: all .2s;
 }
 .ft:hover{
     color: blue;
     text-decoration: none;
+}
+#say{
+    color: black;
+    background-color: white;
+    transition: all .3s;
+}
+#say:hover{
+    color: white;
+    background-color: black;
 }
