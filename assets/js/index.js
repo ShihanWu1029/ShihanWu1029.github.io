@@ -1,5 +1,7 @@
 window.onload=function(){
     console.log("Hello World!");  
+    document.getElementById('foot').innerHTML=`<hr><CENTER><a href="https://github.com/iNeverNobody" class="ft" target="_blank">&copy;iNeverNobody ,2021~2022</a><br><a href="https://icp.gov.moe/?keyword=20222133" target="_blank" class="ft">萌ICP备20222133号</a><br><a class="ft" href="">网站已经存在了<span id="timer"></span></a><br><a href="" class="ft" onclick="window.close()">离开</a></CENTER>`;
+    startCounting();
 }
 function startEndTime(currentTime){
     let day = Math.floor(new Date().getTime() / 1e3) - (new Date(currentTime).getTime() / 1e3),
@@ -17,4 +19,3 @@ function startCounting(){
     document.getElementById("timer").innerHTML = startEndTime('2022-08-24 00:00:00');
     setTimeout("startCounting()",500);
 }
-startCounting();
