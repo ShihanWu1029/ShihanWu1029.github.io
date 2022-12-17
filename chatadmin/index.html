@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="stylesheet" href="./bootstrap-3.4.1-dist/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse" style="border-radius: 0;" id="nav-main"></nav>
+    <center><h1 class="h1c">
+        ChatAdmin
+        <small>----By iNeverNobody</small>
+    </h1></center>
+    <center>
+        <h2>Welcome Back!</h2>
+    </center>
+    <hr>
+    <center><h2 class="h1c">Today's chat</h2></center>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2 data" onclick="window.location.href='./msg.html'" id="123">
+                <center>
+                    <h3><span id="nm">0</span></h3>
+                    <h3><small>New Messages</small></h3>
+                </center>
+            </div>
+            <div class="col-sm-2 data" onclick="window.location.href='./user.html'">
+                <center>
+                    <h3><span id="nu">0</span></h3>
+                    <h3><small>New Users</small></h3>
+                </center>
+            </div>
+            <div class="col-sm-2 data" onclick="window.location.href='./grp.html'">
+                <center>
+                    <h3><span id="ng">0</span></h3>
+                    <h3><small>New Groups</small></h3>
+                </center>
+            </div>
+            <div class="col-sm-2 data" onclick="window.location.href='./user.html'">
+                <center>
+                    <h3><span id="au">0</span>%</h3>
+                    <h3><small>Active Users</small></h3>
+                </center>
+            </div>
+            <div class="col-sm-2 data" onclick="window.location.href='./grp.html'">
+                <center>
+                    <h3><span id="ag">0</span>%</h3>
+                    <h3><small>Active Groups</small></h3>
+                </center>
+            </div>
+            <div class="col-sm-2 data" onclick="window.location.href='./msg.html'">
+                <center>
+                    <h3><span id="bw">2</span></h3>
+                    <h3><small>Bad Words Find</small></h3>
+                </center>
+            </div>
+        </div>
+    </div>
+    <footer id="footer"></footer>
+</body>
+<script src="./bootstrap-3.4.1-dist/jqeury/main.js"></script>
+<script src="./bootstrap-3.4.1-dist/js/bootstrap.js"></script>
+<script src="./assets/index.js"></script>
+<script>
+    putnav("active");
+
+    addNumber(0,982,"nm",Math.ceil(982/90));
+    addNumber(0,3,"nu",0.10);
+    addNumber(0,7,"ng",0.10);
+    addNumber(0,84,"au");
+    addNumber(0,68,"ag")
+    addNumber(0,2,"bw");
+</script>
+</html>

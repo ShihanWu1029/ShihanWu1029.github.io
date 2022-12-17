@@ -1,0 +1,57 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    background-color:white;
+    overflow: auto;
+}
+.none{
+    
+}
+tr{
+    cursor: pointer;
+}
+.ft{
+    transition: all .25s;
+    color: gray;
+    text-decoration: none;
+}
+.ft:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background-color: silver;
+}
+.h1c{
+    transition: all .25s;
+    color: black;
+    text-decoration: none;
+}
+.h1c:hover{
+    color: white;
+    background-color: black;
+}
+h3,h1,h2{
+    user-select: none;
+}
+
+.data{
+    cursor: pointer;
+    background-color: rgb(125, 171, 255);
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: all .4s;
+    /* opacity: 0.8; */
+}
+.data:hover{
+    background-color: rgb(81, 142, 255);
+}
+table{
+    user-select: none;
+}
+a{
+    cursor: pointer;
+}
