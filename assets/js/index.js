@@ -21,7 +21,7 @@ window.onload=function(){
     let pos=Math.floor(Math.random()*sayings.length)
     let say=sayings[pos];
     let auth=author[pos];
-    document.getElementById('say').innerHTML=`<center><h1>${say}<br><small>——${auth}</small></h1></center>`
+    document.getElementById('say').innerHTML=`<center><h1 style="display:inline-block;">${say}<small style="text-align: right;">——${auth}</small></h1></center`
 }
 function startEndTime(currentTime){
     let day = Math.floor(new Date().getTime() / 1e3) - (new Date(currentTime).getTime() / 1e3),
