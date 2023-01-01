@@ -33,3 +33,23 @@ footer{
     color: white;
     background-color: black;
 }
+.text{
+    width: 100%;
+    height: auto;
+    border: solid 1px gray;
+    border-radius: 6px;
+    color: white;
+    transition: all .3s;
+    background-color: gray;
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.text:hover{
+    background-color: black;
+    color: white;
+}
+spacer{
+    width: 10%;
+}

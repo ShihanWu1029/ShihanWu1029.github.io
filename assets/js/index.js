@@ -1,6 +1,6 @@
 window.onload=function(){
     console.log("Hello World!");  
-    document.getElementById('foot').innerHTML=`<hr><CENTER><a href="https://github.com/iNeverNobody" class="ft" target="_blank">&copy;iNeverNobody ,2021~2022</a><br><a href="https://icp.gov.moe/?keyword=20222133" target="_blank" class="ft">萌ICP备20222133号</a><br><a class="ft" href="">网站已经存在了<span id="timer"></span></a><br><p class="ft" onclick="window.close()">离开</p></CENTER>`;
+    document.getElementById('foot').innerHTML=`<hr><CENTER><a href="https://github.com/iNeverNobody" class="ft" target="_blank">&copy;iNeverNobody ,2021~2022</a><br><a href="https://icp.gov.moe/?keyword=20222133" target="_blank" class="ft">萌ICP备20222133号</a><br><a class="ft" href="">网站已经存在了<span id="timer"></span></a></CENTER>`;
     startCounting();
     let sayings=[
         "那些夏天，就像青春一样回不来。",
